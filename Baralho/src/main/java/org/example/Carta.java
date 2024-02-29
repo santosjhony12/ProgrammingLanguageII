@@ -1,21 +1,21 @@
 package org.example;
 
 import org.example.enums.Naipe;
-import org.example.enums.Nome;
+import org.example.enums.Value;
 
 public class Carta {
     private Naipe naipe;
-    private Nome value;
-    public Carta(Naipe naipe, Nome nome){
+    private Value value;
+    public Carta(Naipe naipe, Value value){
         this.naipe = naipe;
-        this.value = nome;
+        this.value = value;
     }
 
     public Naipe getNaipe() {
         return naipe;
     }
 
-    public Nome getValue() {
+    public Value getValue() {
         return value;
     }
 
@@ -23,7 +23,7 @@ public class Carta {
         this.naipe = naipe;
     }
 
-    public void setValue(Nome value) {
+    public void setValue(Value value) {
         this.value = value;
     }
     @Override

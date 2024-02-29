@@ -1,5 +1,5 @@
 package org.example.enums;
 
-public enum Nome {
+public enum Value {
     A, DOIS, TRES, QUATRO, CINCO, SEIS, SETE, OITO, NOVE, DEZ, J, Q, K, CORINGA;
 }
