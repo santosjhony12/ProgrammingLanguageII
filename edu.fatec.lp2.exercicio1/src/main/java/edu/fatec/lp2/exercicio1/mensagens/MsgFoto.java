@@ -1,4 +1,4 @@
-package edu.fatec.lp2.exercicio1;
+package edu.fatec.lp2.exercicio1.mensagens;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MsgFoto extends Mensagem{
+public class MsgFoto extends Mensagem {
     private int tamanho;
     @Override
     public MsgFoto sendMensagem(String conteudo) {

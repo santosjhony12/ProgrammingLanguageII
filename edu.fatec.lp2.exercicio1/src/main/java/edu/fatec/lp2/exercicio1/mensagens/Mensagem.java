@@ -1,5 +1,6 @@
-package edu.fatec.lp2.exercicio1;
+package edu.fatec.lp2.exercicio1.mensagens;
 
+import edu.fatec.lp2.exercicio1.Contatinho;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

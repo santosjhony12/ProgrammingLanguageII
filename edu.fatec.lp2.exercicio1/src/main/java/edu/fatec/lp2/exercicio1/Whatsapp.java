@@ -1,8 +1,7 @@
 package edu.fatec.lp2.exercicio1;
 
-import lombok.AllArgsConstructor;
+import edu.fatec.lp2.exercicio1.mensagens.Mensagem;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;

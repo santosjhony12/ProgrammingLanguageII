@@ -1,4 +1,4 @@
-package edu.fatec.lp2.exercicio1;
+package edu.fatec.lp2.exercicio1.mensagens;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MsgAudio extends Mensagem{
+public class MsgAudio extends Mensagem {
     private int duracao;
     @Override
     public MsgAudio sendMensagem(String conteudo){
