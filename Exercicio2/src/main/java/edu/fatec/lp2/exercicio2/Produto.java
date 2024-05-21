@@ -2,10 +2,12 @@ package edu.fatec.lp2.exercicio2;
 
 import lombok.*;
 
-@Getter
-@Setter
+
 @ToString
+@Builder
+@AllArgsConstructor
 public class Produto {
+    @Getter
     private String nome;
     private String unidade;
     private String descricao;
@@ -16,4 +18,5 @@ public class Produto {
     public Produto(Supermercado s){
         this.supermercado = s;
     }
+
 }
