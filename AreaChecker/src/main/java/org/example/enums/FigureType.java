@@ -9,5 +9,9 @@ public enum FigureType {
     QUADRADO,
     RETANGULO,
     TRAPEZIO,
-    TRIANGULO
+    TRIANGULO,
+    PIRAMIDE,
+    PRISMA,
+    CILINDRO,
+    ESFERA
 }
